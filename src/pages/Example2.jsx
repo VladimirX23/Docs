@@ -1,0 +1,14 @@
+import MiddlePaper from "../components/MiddlePaper";
+import Header from "../components/Header";
+import Menu from "../components/Menu";
+export default function Example2() {
+  return (
+    <div>
+      <Header />
+      <div style={{ display: "flex" }}>
+        <Menu />
+        <MiddlePaper />
+      </div>
+    </div>
+  );
+}
